@@ -1,0 +1,66 @@
+body{
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+
+.foot-icon{
+    font-size: 2em;
+    color: white;
+    display: inline-block;
+  }
+
+  .foot-icon:hover{
+    color: rgb(194, 192, 192);
+    text-decoration: none;
+  }
+
+  .card-bg-color{
+    background-color: rgb(8, 143, 143);
+    border-radius: 10px;
+    color: white;
+  }
+
+  .index-first{
+    background-color: rgb(245, 61, 61);
+  }
+
+  .index-second{
+    background-color: rgb(80, 211, 80);
+  }
+
+  .index-third{
+    background-color: rgb(78, 78, 201);
+  }
+
+  .body-about{
+    background-image: url("images/about_bg.jpg");
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.178);
+    background-blend-mode:hard-light;
+  
+  }
+
+  .body-contact{
+    background-image: url("images/contact_bg.jpg");
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.349);
+    background-blend-mode:hard-light;
+  
+  }
+
+
+/* https://source.unsplash.com/1400x400/?code,technology */
